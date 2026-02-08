@@ -21,7 +21,7 @@ export const NAV_ITEMS: NavItem[] = [
 export const PROFILE = {
   name: 'Quant Logic',
   nameInitial: 'QL',
-  title: '18년차 SI 풀스택 개발자',
+  title: 'SI 풀스택 개발자',
   greeting: '안녕하세요,',
   description: '안정감 있는 백엔드와 유연한 프론트엔드의 조화.\nJava/Spring 기반 백엔드부터 React/Vue/TypeScript 프론트엔드까지,\n제조·통신·건설 분야의 성공적인 시스템 구축을 이끄는 베테랑 개발자입니다.',
   email: 'snix.kr@gmail.com',
