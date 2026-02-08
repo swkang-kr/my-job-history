@@ -26,7 +26,7 @@ export const PROFILE = {
   description: '안정감 있는 백엔드와 유연한 프론트엔드의 조화.\nJava/Spring 기반 백엔드부터 React/Vue/TypeScript 프론트엔드까지,\n제조·통신·건설 분야의 성공적인 시스템 구축을 이끄는 베테랑 개발자입니다.',
   email: 'snix.kr@gmail.com',
   githubUrl: 'https://github.com/swkang-kr/',
-  websiteUrl: 'http://www.snix.kr',
+  websiteUrl: 'https://my-job-history.vercel.app/',
 } as const;
 
 /** 자기소개 텍스트 */
