@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 부드러운 스크롤 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 스크롤 등장 애니메이션 */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 네비게이션 활성 링크 */
+.nav-link.active,
+.mobile-nav-link.active {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+/* 네비게이션 스크롤 시 그림자 효과 */
+.navbar-scrolled {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* 섹션 앵커 오프셋 */
+section[id] {
+  scroll-margin-top: 64px;
+}
