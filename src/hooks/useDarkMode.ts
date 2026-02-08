@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 
-/** 다크모드 상태 관리 훅 */
+/** 다크모드 상태 관리 훅 (기본값: 다크) */
 export const useDarkMode = () => {
   const [isDark, setIsDark] = useState<boolean>(() => {
     const saved = localStorage.getItem('theme');
     if (saved) return saved === 'dark';
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    return true;
   });
 
   useEffect(() => {

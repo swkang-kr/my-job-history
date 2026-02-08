@@ -45,3 +45,9 @@ export interface CompetencyTag {
   label: string;
   colorClass: string;
 }
+
+/** 통계 항목 */
+export interface StatisticItem {
+  value: string;
+  label: string;
+}

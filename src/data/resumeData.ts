@@ -5,6 +5,7 @@ import type {
   EducationItem,
   CertificationItem,
   CompetencyTag,
+  StatisticItem,
 } from '@/types';
 
 /** 네비게이션 메뉴 */
@@ -35,11 +36,21 @@ export const ABOUT_TEXT =
 
 /** 핵심 역량 */
 export const COMPETENCY_TAGS: CompetencyTag[] = [
-  { label: 'SI 풀스택', colorClass: 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300' },
-  { label: 'PLM/ERP', colorClass: 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300' },
-  { label: '제조·통신·건설', colorClass: 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300' },
-  { label: 'AI/RAG', colorClass: 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300' },
-  { label: 'React/Vue/TS', colorClass: 'bg-pink-100 text-pink-700 dark:bg-pink-900/30 dark:text-pink-300' },
+  { label: 'SI 풀스택', colorClass: 'glass-card px-4 py-2 text-primary-light' },
+  { label: 'PLM/ERP', colorClass: 'glass-card px-4 py-2 text-emerald-400' },
+  { label: '제조·통신·건설', colorClass: 'glass-card px-4 py-2 text-violet-400' },
+  { label: 'AI/RAG', colorClass: 'glass-card px-4 py-2 text-amber-400' },
+  { label: 'React/Vue/TS', colorClass: 'glass-card px-4 py-2 text-sky-400' },
+];
+
+/** 히어로 기술 스택 배지 */
+export const HERO_TECH_STACK = ['Java', 'Spring', 'React', 'Vue.js', 'TypeScript', 'Oracle'];
+
+/** 통계 데이터 */
+export const STATISTICS: StatisticItem[] = [
+  { value: '30+', label: '수행 프로젝트' },
+  { value: '18년', label: '개발 경력' },
+  { value: '10+', label: '대기업 고객사' },
 ];
 
 /** 스킬 카테고리 */
@@ -58,8 +69,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     title: 'Backend',
-    colorClass: 'text-green-600',
-    barColorClass: 'bg-green-500',
+    colorClass: 'text-emerald-400',
+    barColorClass: 'bg-emerald-400',
     items: [
       { name: 'Java', level: 95 },
       { name: 'Spring/Boot', level: 90 },
@@ -69,8 +80,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     title: 'Database',
-    colorClass: 'text-orange-600',
-    barColorClass: 'bg-orange-500',
+    colorClass: 'text-amber-400',
+    barColorClass: 'bg-amber-400',
     items: [
       { name: 'Oracle', level: 90 },
       { name: 'MySQL/MariaDB', level: 80 },
@@ -80,8 +91,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     title: 'Tools & AI',
-    colorClass: 'text-purple-600',
-    barColorClass: 'bg-purple-500',
+    colorClass: 'text-violet-400',
+    barColorClass: 'bg-violet-400',
     items: [
       { name: 'IntelliJ', level: 90 },
       { name: 'Git', level: 85 },

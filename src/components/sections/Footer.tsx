@@ -1,6 +1,6 @@
 const Footer = () => (
-  <footer className="py-8 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700">
-    <p>&copy; 2026 Quant Logic. All rights reserved.</p>
+  <footer className="py-10 text-center text-sm text-dark-muted border-t border-white/5">
+    <p>&copy; 2026 <span className="text-primary">Quant Logic</span>. All rights reserved.</p>
   </footer>
 );
 
