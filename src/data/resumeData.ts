@@ -29,7 +29,7 @@ export const PROFILE = {
   websiteUrl: 'https://my-job-history.vercel.app/',
 } as const;
 
-/** 자기소개 텍스트  */
+/** 자기소개 텍스트 */
 export const ABOUT_TEXT =
   '2008년부터 현재까지 약 18년 동안 SI 개발 현장에서 Java(Spring Framework, Spring Boot)와 Oracle/Tibero 기반의 백엔드 개발, 그리고 jQuery부터 React.js/Vue.js/TypeScript로 이어지는 프론트엔드 개발을 모두 수행해 온 풀스택 개발자입니다. 현대차그룹 및 삼성 계열사 장기 프로젝트를 성공적으로 수행했으며, 최근에는 AI Agent, RAG 등 신기술 영역까지 확장하고 있습니다. 단순히 코드를 작성하는 것을 넘어, 시스템의 전체적인 흐름을 읽고 최적의 솔루션을 제시할 수 있는 개발자입니다.';
 
