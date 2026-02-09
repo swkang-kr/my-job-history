@@ -2,7 +2,7 @@
 
 ## 커밋 정보
 - **커밋 해시**: 1b7510f0c2a0e579fdf581d5d3ca777044633167
-- **작성자**: swkang-kr <snix.kr@gmailcom>
+- **작성자**: swkang-kr <snix.kr@gmail.com>
 - **날짜**: 2026년 2월 8일 일요일 18:34:37 (KST)
 - **메시지**: Initial commit
 
